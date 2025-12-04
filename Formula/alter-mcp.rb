@@ -7,7 +7,7 @@ class AlterMcp < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/VISIALIS/alter-brew/releases/download/v1.0.26/alter-mcp-macos-arm64.tar.gz"
-      sha256 "1e6051d3daf824f66240e7315a2dfd31615ec60935e97fe7328792a4fe9b9ad2" # Updated automatically by CD
+      sha256 "3d1033ebfa500fb420f908d6b5e4d802ec444aa9b81a61ca94028453e0bc341a" # Updated automatically by CD
     end
   end
 
