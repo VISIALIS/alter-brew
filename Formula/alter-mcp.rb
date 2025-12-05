@@ -1,13 +1,13 @@
 class AlterMcp < Formula
   desc "Model Context Protocol server for AI agents integration with Alter"
   homepage "https://github.com/VISIALIS/phoenix_0"
-  version "1.0.26" # Updated automatically by CD
+  version "1.0.28" # Updated automatically by CD
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/VISIALIS/alter-brew/releases/download/v1.0.26/alter-mcp-macos-arm64.tar.gz"
-      sha256 "3d1033ebfa500fb420f908d6b5e4d802ec444aa9b81a61ca94028453e0bc341a" # Updated automatically by CD
+      url "https://github.com/VISIALIS/homebrew-alter/releases/download/v1.0.28/alter-mcp-macos-arm64.tar.gz"
+      sha256 "b9aee8496a9175bafc3500eaac92bdb9ade06d6aff2459b0fb261aa75c8b44cc" # Updated automatically by CD
     end
   end
 
