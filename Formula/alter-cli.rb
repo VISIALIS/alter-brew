@@ -7,7 +7,7 @@ class AlterCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/VISIALIS/homebrew-alter/releases/download/v1.0.31/alter-cli-macos-arm64.tar.gz"
-      sha256 "b2e59c18a919c6a981b18fb4f45fbf8084dadd5ab301a6965dad90e52c653838" # Updated automatically by CD
+      sha256 "796bb6732d6b87df6112f9401ff3c13767a0790be8b4c287cbc03942d1931478" # Updated automatically by CD
     end
   end
 
