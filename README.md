@@ -286,6 +286,12 @@ Alter classifies any EVM address and tells you:
 - **Accuracy**: Deep inspection of bytecode and on-chain state
 - **Integration**: Works with your AI assistant via MCP, or standalone via CLI
 
+### Current Limitations
+
+- **Networks**: Ethereum and Gnosis Chain only (more chains via ChainList coming soon)
+- **Platform**: macOS only (Linux & Windows support in progress)
+- **RPC**: Uses default public RPC endpoints (custom endpoints support planned)
+
 ### Links
 
 - **Source**: [VISIALIS](https://github.com/VISIALIS) (private repositories)
