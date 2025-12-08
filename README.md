@@ -270,10 +270,29 @@ If your AI client shows "Transport closed" or connection errors:
 
 ## About Alter
 
-Alter is a blockchain address classification tool using Domain-Driven Design principles.
+Alter is a professional blockchain address classification toolkit built with Domain-Driven Design principles.
 
-- **GitHub**: [VISIALIS/phoenix_0](https://github.com/VISIALIS/phoenix_0) (private)
-- **Documentation**: Coming soon
+### Features
+
+- **Multi-chain support**: Ethereum, Gnosis Chain (more coming)
+- **Smart classification**: Detects wallets, contracts, tokens (ERC-20, ERC-721, ERC-1155), proxies, multisigs, bridges, and more
+- **Token trait detection**: Identifies wrapped, rebasing, governed, pegged, and other token behaviors
+- **Optimized RPC calls**: Uses Multicall3 for batch operations (up to 200 addresses per request)
+- **AI-ready**: MCP server for seamless integration with AI assistants
+
+### Architecture
+
+Built on clean architecture principles:
+- **Domain layer**: Business rules and entities
+- **Application layer**: Use cases and coordinators
+- **Infrastructure layer**: RPC clients, caching, load balancing
+- **Presentation layer**: CLI and MCP server
+
+### Links
+
+- **Source**: [VISIALIS/phoenix_0](https://github.com/VISIALIS/phoenix_0) (private)
+- **Homebrew Tap**: [VISIALIS/homebrew-alter](https://github.com/VISIALIS/homebrew-alter)
+- **Issues**: [Report a bug](https://github.com/VISIALIS/homebrew-alter/issues)
 
 ## Automated Deployment
 
